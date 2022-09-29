@@ -1,0 +1,29 @@
+.navbar{
+    height: 80px !important;
+}
+.navbar-collapse.show{
+    z-index:999;
+   
+}
+.nav-link{
+    color: white  !important;
+    font-size: 17px;
+}
+.nav-link:hover{
+    color: blueviolet !important;
+}
+.navbar-nav{
+    background: black !important;
+}
+.icon{
+    color: white !important;
+    cursor: pointer;
+}
+.icon-title{
+    color: white !important;
+    padding-left: 20px !important;
+    font-weight: bold;
+}
+.navbar-toggler{
+    background-color: wheat;
+}

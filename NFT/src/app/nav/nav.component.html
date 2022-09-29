@@ -1,0 +1,70 @@
+<nav class="navbar navbar-expand-lg navbar-white bg-black">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="https://html.modeltheme.com/enefti/assets/images/logos/logo.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" [routerLink]="['/home']" routerLinkActive="router-link-active" >Home</a>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  NFT Marketplace
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" [routerLink]="['/shop']" routerLinkActive="router-link-active" >Shop</a></li>
+                  <li><a class="dropdown-item" [routerLink]="['/Single NFT']" routerLinkActive="router-link-active" >Single NFT</a></li>
+                
+                </ul>
+              </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Features
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" [routerLink]="['/Collections']" routerLinkActive="router-link-active" >NFT Collections</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/CreateNfts']" routerLinkActive="router-link-active"   >Create NFTs</a></li>
+              
+            </ul>
+          </li>
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" [routerLink]="['/shopshop']" routerLinkActive="router-link-active" >Shop</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/singlep2']" routerLinkActive="router-link-active" >Single NFT</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/Blog']" routerLinkActive="router-link-active" >Blog</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/Singlepost']" routerLinkActive="router-link-active" >Single Post</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/aboutus']" routerLinkActive="router-link-active" >About</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/Contact']" routerLinkActive="router-link-active" >Conctact</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Help
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Documentation</a></li>
+            
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Purchase</a>
+          </li>
+        </ul>
+        <div class="search-input">
+            <span class="icon"><i class="bi bi-search"></i></span>
+             <a [routerLink]="['/CreateNfts']" routerLinkActive="router-link-active" >  <span class="icon-title">Sign in</span></a>
+
+        </div>
+     
+      </div>
+    </div>
+  </nav>

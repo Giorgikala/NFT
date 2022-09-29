@@ -1,0 +1,132 @@
+
+section{
+    position: relative !important;
+}
+.enefti-banner{
+    background-image: url("https://html.modeltheme.com/enefti/assets/images/backgrounds/banner-bg.jpg");
+    background-size: cover !important;
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 50px !important;
+}
+.enefti-container {
+    width: 100% !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.enefti-banner-text{
+    flex: 0 0 41.666667%;
+    color: white !important;
+    
+   
+}
+.explore{
+    width: 100%;
+    height: auto;
+    background-color: #f5f4f4;
+}
+.ethicon{
+    width: 24px;
+    height: 50px;
+    padding-right: 5px;
+    margin: 6px;
+}
+
+
+.card{
+    cursor: pointer;
+}
+.btn{
+    width: 120px !important;
+    
+    justify-content: flex-end !important;
+    border: 1px solid black;
+    
+    
+}
+.filterhead{
+    justify-content: space-between !important;
+   
+}
+.col{
+    padding-top: 100px !important;
+}
+#nfttitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hottestTitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 60px;
+}
+
+#collectorscard{
+    flex-direction: row;
+    margin: 25px 30px;
+}
+#collectorscard img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    
+}
+.card-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-body span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.eneftisalezone{
+    background-image: url("https://html.modeltheme.com/enefti/assets/images/backgrounds/sell-bg.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 25px;
+    
+}
+.saletitle i{
+    font-size: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+.cardeffect:hover{
+    filter: brightness(0.8);
+}
+.cardeffect:hover .button{
+    opacity: 1;
+    transform: all 0.7s;
+    
+}
+
+
+
+
+.button{
+    opacity: 0;
+    position: relative;
+    bottom: 50%;
+    left: 30%;
+    padding: 15px 15px;
+    background: linear-gradient(to right, #d01498, #647ecb, #647ecb, #d01498);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+
+
+
+#icontrending:hover{
+    transform: translateY(10px);
+    transition: all 0.5s;
+}
+
+
+
+

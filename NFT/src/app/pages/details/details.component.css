@@ -1,0 +1,13 @@
+.maincard{
+    width: 400px;
+    border: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.maincard img{
+    border-radius: 50px;
+   
+}
+.container-fluid{
+   background-color: black !important;
+}

@@ -1,0 +1,157 @@
+.eneftibaner{
+    background-image: url("https://html.modeltheme.com/enefti/assets/images/about/About-bg.jpg");
+    background-position: center;
+    width: 100%;
+    height: 380px;
+    position: relative;
+}
+.row{
+   
+    padding-top: 100px;
+}
+.eneftitext h1{
+    color: white;
+}
+.eneftitext p{
+    color: white;
+}
+.ptext{
+    font-size: 17px;
+    line-height: 26px;
+    color: #828282;
+}
+.h2text{
+    color: #222;
+    font-weight: 600 !important;
+    font-size: 35px;
+    line-height: 1.4;
+    font-family: Raleway;
+    margin-bottom: 30px;
+}
+.btn{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 12px 26px;
+    text-align: center;
+    width: fit-content;
+    font-family: Raleway;
+    text-transform: uppercase;
+    background-size: 300% 100%;
+    border: none;
+    font-weight: 700;
+    background: linear-gradient(to right, #d01498, #647ecb, #647ecb, #d01498);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.iconbox{
+    border-top: 1px solid rgb(184, 153, 153);
+    padding-top: 40px;
+    
+}
+.icn{
+    font-size: 60px;
+}
+.texticonbtn{
+    padding-left: 20px;
+}
+.texticonbtn h5{
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #343e47;
+    font-family: Raleway;
+    display: block;
+    margin-bottom: 10px;
+}
+.icn:hover{
+    transform: translateY(-1.1rem);
+    transition: all 0.4s;
+    
+}
+.ptextbottom{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+.photo{
+    height: 500px;
+    max-width: 100%;
+}
+.eneftimember{
+    padding-top: 90px;
+    padding-bottom: 70px;
+    background-color: #fafafa !important;
+}
+
+.memebertitle{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.card{
+    border: none;
+}
+#name{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+#position{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    font-style: italic;
+    font-family: Raleway;
+    color: #888;
+    margin-bottom: 10px;
+}
+.list-group-item{
+    border: none;
+}
+
+.cardeffect{
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.iconprofile{
+    font-size: 25px;
+    color: white;
+    
+}
+.cardeffect:hover{
+    filter: brightness(1.5);
+}
+
+.iconboxprofile{
+    position: relative;
+    display: flex;
+    top: 30%;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+
+}
+#partnerbox{
+    justify-content: space-between;
+    width: 100%;
+    
+}
+#partnerbox img{
+    width: 200px;
+    padding: 15px 25px;
+    opacity: .6;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.eneftisliderhead{
+    padding-top: 90px;
+}
+a{
+    text-decoration: none;
+}

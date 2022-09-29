@@ -1,0 +1,116 @@
+<section class="eneftibaner">
+    <div class="container">
+        <div class="row   justify-content-center">
+            <div class="eneftitext col-lg-8 col-md-8 col-sm-12 col-12">
+                <h1 class="text-center">About Us at Enefti</h1>
+                <P class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper pulvinar imperdiet. Fusce rhoncus vel lacus vel tempor. Nullam eu magna congue, auctor nisl ac, tristique urna. In blandit mattis massa.</P>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <h2 class="h2text">Open Your Own Marketplace</h2>
+            <p class="ptext">In hac habitasse platea dictumst. Integer arcu odio, malesuada id eros vel, hendrerit consequat quam. Pellentesque volutpat quis elit at tincidunt. Fusce vel velit augue. Integer gravida justo nec mauris congue, sit amet faucibus nisl dictum. Nullam in urna tincidunt, fringilla nisl a, efficitur neque.</p>
+            <P class="ptext">Integer ornare mauris id mauris semper, non fermentum est vestibulum. Sed non laoreet ligula. Praesent tempor scelerisque nulla, non tristique dolor rhoncus ac. Nulla vitae ornare sapien. Quisque non massa ut justo convallis blandit. Curabitur eu lorem quis sem finibus semper</P>
+            <button class="btn mb-3 mt-3">CONTACT US</button>
+                  <div class="iconbox d-flex align-items-center">
+                     <a class="icn" [routerLink]="['/Contact']" routerLinkActive="router-link-active" ><span class="icn"><i class="bi bi-pencil-fill"></i></span></a>
+                      <div class="texticonbtn">
+                          <h5>Costomize</h5>
+                          <p class="ptextbottom">You can finally open a fully customizable marketplace</p>
+                      </div>
+                    <a class="icn" [routerLink]="['/Contact']" routerLinkActive="router-link-active" ><span class="icn"><i class="bi bi-wallet-fill"></i></span></a>
+                    <div class="texticonbtn">
+                        <h5>Set you Fee</h5>
+                        <p class="ptextbottom">Get insights to see how your collectibles are trending.</p>
+                    </div>
+                  </div>
+           
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+                    <img class="photo" src="https://html.modeltheme.com/enefti/assets/images/about/About_company.jpg" alt="">
+                </div>
+        
+    </div>
+</div>
+  
+<section class="eneftimember">
+    <div class="container">
+        <div class="memberhead">
+            <h3 class="memebertitle">The Team Behind The Business</h3>
+        </div>
+        <div class="row">
+            <div class="card col-md-3"*ngFor="let item of member" >
+                <div class="iconboxprofile">
+                    <span class="iconprofile"><i class="bi bi-facebook"></i></span>
+                    <span class="iconprofile"><i class="bi bi-twitter"></i></span>
+                    <span class="iconprofile"><i class="bi bi-instagram"></i></span>
+                    <span class="iconprofile"><i class="bi bi-envelope"></i></span>
+
+                </div>
+
+                <img class="cardeffect" clas src="{{item.imG}}" alt="...">
+               
+                  
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-center" id="name">{{item.name}}</li>
+                  <li class="list-group-item text-center" id="position">{{item.position}}</li>
+                </ul>
+                
+              </div>
+            
+            
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<section class="eneftipartner">
+    <div class="container-fluid">
+        <div class="eneftipartnerhead d-flex justify-content-center">
+            <h1>Our Trustworthy Partners</h1>
+        </div>
+        <div class="row text-center " id="partnerbox">
+            <div class="col-md-2 ">
+                <img src="https://html.modeltheme.com/enefti/assets/images/about/client-carousel/Client1.jpg" alt="">
+                
+            </div>
+            <div class="col-md-2 ">
+                <img src="https://html.modeltheme.com/enefti/assets/images/about/client-carousel/Client2.jpg" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="https://html.modeltheme.com/enefti/assets/images/about/client-carousel/Client3.jpg" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="https://html.modeltheme.com/enefti/assets/images/about/client-carousel/Client4.jpg" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="https://html.modeltheme.com/enefti/assets/images/about/client-carousel/Client5.jpg" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="https://html.modeltheme.com/enefti/assets/images/about/client-carousel/Client6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="eneftislider">
+    <div class="container-fluid">
+        <div class="eneftisliderhead d-flex justify-content-center">
+            <h1>Listen to other customer’s opinions</h1>
+        </div>
+        <app-slider></app-slider>
+     
+    </div>
+</section>
+
+

@@ -1,0 +1,191 @@
+<section class="enefti-banner">
+  <div class="enefti-container">
+    <div class="row d-flex align-items-center">
+      <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+        <img
+          src="https://html.modeltheme.com/enefti/assets/images/banners/banner-img.jpg"
+          alt=""
+          class="img-fluid"
+        />
+      </div>
+      <div class="enefti-banner-text col-md-12 col-sm-12 col-12 pl-md-5 py-3">
+        <h1>Discover, Collect & Sell Extraordinary NFTs</h1>
+        <p>
+          The Crypto Monkey is a high-quality collection of 100 unique monkeys
+          on the NFTMart marketplace.
+        </p>
+        <a [routerLink]="['/shop']" routerLinkActive="router-link-active"
+          ><button type="button" class="btn btn-outline-primary p-3">
+            DISCOVER
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <h1 class="text-white p-3 mb-5">Trending Collection</h1>
+  <app-swiper-slider> </app-swiper-slider>
+</section>
+<section class="explore">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="filterhead d-flex py-4 shadow">
+        <h1>Explore Nft's</h1>
+        <button type="button" class="nftButton active btn btn-outline-dark" (click)="FilterCollection(0,$event)">All Nft's</button>
+        <button type="button" class="nftButton btn btn-outline-dark" (click)="FilterCollection(1,$event)">Sale Type</button>
+        <button type="button" class="nftButton btn btn-outline-dark" (click)="FilterCollection(2,$event)">Fixed Price</button>
+      </div>
+
+      <div
+        class="card py-1 p-3 m-2 align-items-center shadow mx-auto"
+        style="width: 18rem"
+        *ngFor="let nft of filteredCollection"
+      >
+        <div class="cardeffect">
+          <img src="{{ nft.imgSoruce }}" class="card-img-top" alt="..." />
+
+          <a [routerLink]="['/details/' + nft.id ]" [queryParams]="{selected: 'nft'}" routerLinkActive="router-link-active" ><button class="button">PLACE A BID</button></a>
+        </div>
+        <div class="card-body">
+          <h6 class="card-title" id="nfttitle">{{ nft.name }}</h6>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <img
+              class="ethicon"
+              src="https://html.modeltheme.com/enefti/assets/images/icons_svgs/weth.svg"
+              alt=""
+            />{{ nft.price }} ETH
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="enefti-colllectors">
+  <div class="container-fluid">
+    <div class="col">
+      <h1>Trending Collectors</h1>
+      <p>Fine art collectors are in a upward this week</p>
+    </div>
+    <div class="row d-flex p-5 mb-15">
+      <div
+        class="card mx-auto shadow"
+        style="width: 300px"
+        *ngFor="let item of profileIcon"
+        id="collectorscard"
+      >
+        <a [routerLink]="['/shop']" routerLinkActive="router-link-active">
+          <img
+            src="{{ item.immgSource }}"
+            class="card-img-top"
+            id="icontrending"
+            alt="..."
+        /></a>
+
+        <div class="card-body">
+          <p class="card-text">{{ item.name }}</p>
+          <span>{{ item.items }} items</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="eneftisalezone">
+  <div class="container-fluid">
+    <div class="row justify-content-center eneftisale">
+      <div class="saletitle col-md-3 text-center">
+        <a [routerLink]="['/Contact']" routerLinkActive="router-link-active"
+          ><i class="bi bi-wallet"></i
+        ></a>
+        <h4 class="text-white">Set Up Your Wallet</h4>
+        <p class="text-white">
+          Et ligula ullamcorper malesuada proin libero nunc consequat. Sagittis
+          aliquam malesuada bibendum arcu.
+        </p>
+      </div>
+
+      <div class="saletitle col-md-3 text-center">
+        <a [routerLink]="['/Contact']" routerLinkActive="router-link-active"
+          ><i class="bi bi-image-fill" id="iconbi"></i
+        ></a>
+        <h4 class="text-white">Create your Collection</h4>
+        <p class="text-white">
+          At in tellus integer feugiat scelerisque varius morbi enim nunc.
+          Faucibus ornare suspendisse sed nisi lacus.
+        </p>
+      </div>
+      <div class="saletitle col-md-3 text-center">
+        <a [routerLink]="['/Contact']" routerLinkActive="router-link-active"
+          ><i class="bi bi-display" id="iconbi"></i
+        ></a>
+        <h4 class="text-white">Add your NTFs</h4>
+        <p class="text-white">
+          Varius sit amet mattis vulputate enim nulla. Pulvinar mattis nunc sed
+          blandit libero volutpat sed. In nulla.
+        </p>
+      </div>
+      <div class="saletitle col-md-3 text-center">
+        <a [routerLink]="['/Contact']" routerLinkActive="router-link-active"
+          ><i class="bi bi-telegram" id="iconbi"></i
+        ></a>
+        <h4 class="text-white">List item for Sale</h4>
+        <p class="text-white">
+          Placerat vestibulum lectus mauris ultrices eros. Cursus vitae congue
+          mauris rhoncus aenean vel.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hottestbids">
+  <div class="container-fluid">
+    <div class="row">
+      <h1 class="hottestTitle">Hottest Bids</h1>
+      <div
+        class="card mx-auto shadow p-3 m-5"
+        style="width: 18rem"
+        *ngFor="let hott of hottesImg"
+      >
+        <div class="cardeffect">
+          <img src="{{ hott.Img }}" class="card-img-top" alt="..." />
+          <a  [routerLink]="['/details/' + hott.id]" [queryParams]="{selected: 'hottest'}" routerLinkActive="router-link-active" ><button class="button">ADD TO CART</button></a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ hott.name }}</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">{{ hott.price }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="Lattestnews">
+  <div class="container-fluid">
+    <div class="row">
+      <h1>Lattest News</h1>
+      <div
+        class="card mx-auto shadow p-0"
+        style="width: 400px"
+        *ngFor="let late of news"
+      >
+        <div class="cardeffect">
+          <img src="{{ late.img }}" class="card-img-top" alt="..." />
+          <a
+            [routerLink]="['/Singlepost']"
+            routerLinkActive="router-link-active"
+            ><button class="button">READ MORE</button>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ late.date }}</h5>
+          <p class="card-text">{{ late.text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

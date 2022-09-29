@@ -1,0 +1,40 @@
+.contact{
+    padding-top: 50px;
+}
+.col-4{
+    text-align: center;
+}
+.icon {
+    font-size: 70px;
+    color: blueviolet;
+}
+.mainimg img{
+    width: 55%;
+   
+    
+}
+.mainimg{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.ptext{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #0a0a0a;
+    font-family: Raleway;
+    margin: 0;
+}
+.spantext{
+    
+        padding-top: 10px;
+        font-size: 16px;
+        font-family: Raleway !important;
+        font-weight: 400 !important;
+        color: #666;
+}
+
+.icon:hover{
+    transform: translateY(-10px);
+    transition: all 0.7s;
+}

@@ -1,0 +1,17 @@
+.list-unstyled a{
+   list-style: none !important;
+}
+.photo{
+    width: 110px;
+    height: 80px;
+    margin-left: 40px !important;
+    
+    
+   
+    
+}
+.photo:hover{
+    background: darkgrey !important;
+
+}
+

@@ -1,0 +1,72 @@
+.com-md-12{
+   
+    padding-bottom: 20px;
+}
+.singleenefti1{
+    width: 140px;
+    height: 100px;
+}
+.singleenefti1 img{
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.iconsng{
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.singletitlesea{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.smicon{
+    width: 50px;
+    height: 50px;
+}
+.singletitle h4{
+    color: blue;
+}
+.linksea{
+    list-style: none;
+    background-color: blue;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    padding-top: 10px;
+   
+}
+.opensea{
+    padding-top: 20px;
+    
+}
+.emailinput{
+    height: 140px;
+}
+input{
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.chkbox{
+    justify-content: flex-start;
+}
+.bottoomenefti{
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin: auto;
+    
+}
+.pricenft{
+    width: 50px;
+    height: 27px;
+    
+}
+.card-img-top{
+    padding: 10px;
+
+}
